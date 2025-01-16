@@ -183,7 +183,7 @@ class War_Game:
             self.play_round()
             counter += 1
             check_win = self.game_won()
-        print("The game is over! %s has won the game!" % self.players[check_win].get_name())
+        print("The game has concluded! %s has emerged victorious!" % self.players[check_win].get_name())
         print("The game took %d rounds to finish!" % counter)
         for i in range(len(self.players)):
             if i == check_win:
