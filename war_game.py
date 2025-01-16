@@ -66,9 +66,9 @@ class Deck:
         self.counter = 0
         global face
         global suit
-        for the_face in face:
-            for the_suit in suit:
-                self.deck.append(Card(the_face, the_suit))
+        for a_face in face:
+            for a_suit in suit:
+                self.deck.append(Card(a_face, a_suit))
         for i in range(7):
             random.shuffle(self.deck)
 
